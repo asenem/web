@@ -1,33 +1,41 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<style>
-#div1 {
-width: 350px;
-height: 70px;
-padding: 10px;
-border: 1px solid #aaaaaa;
-}
-</style>
-<script>
-function allowDrop(ev) {
-ev.preventDefault();
-}
-function drag(ev) {
-ev.dataTransfer.setData("text", ev.target.id);
-}
-function drop(ev) {
-ev.preventDefault();
-var data = ev.dataTransfer.getData("text");
-ev.target.appendChild(document.getElementById(data));
-}
-
-</script>
+<meta charset="utf-8">
+<title>...</title>
 </head>
 <body>
-
-<p>Drag the W3Schools image into the rectangle:</p>
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<header>
+<h1>SAYFA 2/h1>
+<p>Bu sayfa farklı tarayıcılarda denenmelidir.</p>
+</header>
+<nav>
+<ul>
+<li><a href="#section1"">Bölüm 1</a></li>
+<li><a href="#section2">Bölüm 2</a></li>
+<li><a href="https://www.000webhost.com">Sunucuda deneme yapın </a></li>
+</ul></nav>
+<article>
+<h2>Başlık 2-Article</h2>
+<section id="section1">
+<h3>Bölüm 1- <                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Section</h3>
+<p>Article birden fazla section içerebilir.</p>
+</section>
 <br>
-<img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+<img src="../k_1.jpg" width="100" title="kedi resmi">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section id="section2">
+<h3>Bölüm 2- <                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Section</h3>
+<p>Article birden fazla section içerebilir.</p>
+</section>
+</article>
+<aside>
+<p>aside kısmı</p><a href="https://validator.w3.org"> HTML KODU KONTROLÜ İÇİN TIKLAYINIZ</a>
+</aside>
+<footer>
+<p>Hacettepe Üniversitesi-footer  &copy;</p>
+</footer>
 </body>
 </html>
