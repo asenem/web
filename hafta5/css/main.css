@@ -1,12 +1,31 @@
 body{
-    background-color: aquamarine;
-    
-    .basit{
-        background-color: rgba(23, 236, 232, 0.753);
-        border-radius: 100px;
-        width:200px;
-        height:200px;
-        }
-        
-        
+    background-color: rgb(0, 0, 0);    
+  
 }
+.mavi{
+    background-color: rgba(23, 161, 236, 0.753);
+    border-radius: 100px;
+    width:200px;
+    height:200px;
+    opacity: 0.5;
+    margin-top: 300;
+    margin-left: 900;
+    }
+.pembe{
+    background-color: rgba(218, 23, 236, 0.623);
+    border-radius:  100px;
+    width:200px;
+    height:200px;
+    opacity: 0.5;
+    margin-top:-200;
+    margin-left: 800;
+    }
+ .yeşil{
+    background-color: rgba(236, 232, 23, 0.623);
+    border-radius: 100px;
+    width:200px;
+    height:200px;
+    opacity: 0.5;
+    margin-top:-100;
+    margin-left: 850;
+    }
