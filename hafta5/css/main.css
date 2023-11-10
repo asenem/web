@@ -2,6 +2,7 @@
     background-color: rgb(0, 0, 0);    
   
 }
+
 .mavi{
     background-color: rgba(23, 161, 236, 0.753);
     border-radius: 100px;
@@ -29,3 +30,28 @@
     margin-top:-100;
     margin-left: 850;
     }
+
+
+{ 
+    .tmavi{
+        background-color: rgba(23, 161, 236, 0.753); 
+    }
+    .tyeşil{
+        background-color: rgba(37, 108, 29, 0.684);  
+    }
+    .tmor{
+        background-color: rgba(118, 0, 129, 0.623);  
+    }
+    .tsarı{
+        background-color: rgba(255, 221, 0, 0.753); 
+    }
+    .tpembe{
+        background-color: rgba(236, 23, 154, 0.684);  
+    }
+    .tboşluk{
+        background-color: rgba(248, 199, 252, 0.623);  
+    }
+    .tbilgi{
+        background-color: rgba(147, 222, 254, 0.623);  
+    }
+}
