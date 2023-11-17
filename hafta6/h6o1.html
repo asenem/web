@@ -4,27 +4,45 @@
     <style>
         .flex-container {
           display: flex;
-          background-color: #cba3ff;
+          background-color: #20004a;
         }
         
+       
+
+
         .flex-container > div {
           background-color: rgb(0, 0, 0);
-          color: rgb(227, 159, 237);
+          color: rgb(253, 243, 255);
           width: 100px;
           margin: 10px;
           text-align: center;
           line-height: 75px;
           font-size: 30px;
         }
+
+
+        @media screen and (max-width: 600px) {
+            .flex-container{
+            width: 90%;
+            flex-direction: column;
+            }
+
+            .flex-container > div{
+                width: 95%;
+            }
+            
+        }
         </style>
         </head>
         <body>
         
         <div class="flex-container">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div> 
-          <div>4</div>
+          <div>Kapak</div>
+          <div>İçindekiler</div>
+          <div>Önsöz</div> 
+          <div>Bölüm1</div>
+          <div>Bölüm2</div>
+          <div style="background-color: rgb(15, 209, 177)">Loging</div>
         </div>
 
 </body>
