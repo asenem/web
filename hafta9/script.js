@@ -1,6 +1,5 @@
-let red = math.floor(math.random() * 256) ;
-let green = math.floor(math.random() * 256);
-let blue = math.floor(math.random() * 256);
+var green = Math.floor(Math.random() * 256);
+var blue = Math.floor(Math.random() * 256);
+var red = Math.floor(Math.random() * 256);
 
-console.log(red, green, blue);
-document.body.style.backgroundColor= 'rgb(${red},${blue},${green})';
+document.body.style.backgroundColor=`rgb(${red}, ${blue}, ${green})`;
