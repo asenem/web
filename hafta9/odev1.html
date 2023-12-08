@@ -10,17 +10,24 @@
   </script> 
 </head>
 <body>
-<img src="../gorseller/1.jpeg" id="resim"> 
+<img src="../gorseller/1.jpeg" id="resim" width="500px">
+
+<img src="../gorseller/1.jpeg" id="resim1" width="500px">
 <script>
     var res=document.getElementById("resim");
 
+    var res1=document.getElementById("resim1");
     var liste = new Array("1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg","9.jpeg");
     var r=Math.floor(liste.length*Math.random());
     
     var s="../gorseller/"+liste[r];
-    window.alert(s);
+
     res.src=s;
-    
+
+    var r=Math.floor(liste.length*Math.random());
+    var s="../gorseller/"+liste[r];
+    res1.src=s;
+
 </script>
 </body>
 </html>
